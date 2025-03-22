@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holographic Portfolio</title>
+    <style>
+        body {
+            background: #0c1022;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 20px;
+            width: 80%;
+            max-width: 600px;
+            box-shadow: 0 0 20px cyan;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+        .glass-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 30px cyan;
+        }
+        h1 {
+            text-shadow: 0 0 15px cyan;
+        }
+        p {
+            font-size: 18px;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+        }
+        .btn {
+            background: cyan;
+            color: #0c1022;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #0ff;
+            box-shadow: 0 0 20px cyan;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="glass-card">
+            <h1>About Me</h1>
+            <p>Hello! My name is Ujjawal Sharma, and I am a student passionate about learning and growing in the field of technology. I am eager to explore new opportunities and enhance my skills.</p>
+            <h2>Skills</h2>
+            <ul>
+                <li>Web Development (HTML, CSS, JavaScript)</li>
+                <li>Graphic Designing (Posters, Visiting Cards)</li>
+                <li>Video Editing & Content Creation</li>
+                <li>Freelancing on Fiverr</li>
+            </ul>
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>YouTube Channel:</strong> The Ujjawal Gaming - Gaming content and Shorts videos.</li>
+                <li><strong>Website Development:</strong> Currently working on a mini project called 'QuickcodePro' for freelancing and coding resources.</li>
+                <li><strong>AI-Powered Virtual Assistant:</strong> Developing an HTML-based virtual assistant inspired by Jarvis for my final year project.</li>
+            </ul>
+            <h2>Contact</h2>
+            <p>Email: your-email@example.com</p>
+            <p>GitHub: <a href="https://github.com/mrghost749" target="_blank">github.com/mrghost749</a></p>
+            <p>website: <a href="your-fiverr-profile-link" target="_blank">your-fiverr-profile-link</a></p>
+            <h2>Goals</h2>
+            <p>My goal is to build a strong career in the tech industry, focusing on AI, web development, and freelancing opportunities.</p>
+        </div>
+    </div>
+</body>
+</html>
